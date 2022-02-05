@@ -11,6 +11,7 @@ do
 
         echo -e $(tput setaf 7)--------------------------------------$(tput sgr 0);
         echo -e $(tput setaf 2)$ip ONLINE $(tput sgr 0);
-	ssh root@$ip "hostname -I && apt update -y && apt upgrade -y"
+	#ssh root@$ip "hostname -I && apt update -y && apt upgrade -y"
+	ssh root@$ip $2
     fi
 done
