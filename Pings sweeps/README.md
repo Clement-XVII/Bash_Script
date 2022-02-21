@@ -5,4 +5,4 @@ Script court pour effectuer un balayage ping de votre sous-réseau actuel
 
 Possiblité de passer la list sous nmap avec la commande:
 
-`for ip in $(ccat iplist.txt); do nmap -Pn $ip; done`
+`for ip in $(cat iplist.txt); do nmap -Pn $ip; done`
