@@ -10,4 +10,4 @@ fi
 
 #Pour faire un Nmap de la list
 #./nomdufichier.sh 192.168.1 > list.txt
-#for ip in $(ccat list.txt); do nmap -Pn $ip; done
+#for ip in $(cat list.txt); do nmap -Pn $ip; done
