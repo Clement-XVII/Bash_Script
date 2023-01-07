@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Read settings from settings.cfg
 INTERVAL=300  # Default interval is 5 minutes
 
 # Read host list from hosts.lst
