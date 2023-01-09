@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Function to read the list of hosts from the file
 read_hosts() {
     HOST_FILES=$1
@@ -64,7 +62,7 @@ print_summary() {
 }
 
 # Main script
-INTERVAL=15 # Default interval is 15 minutes
+INTERVAL=300 # Default interval is 5 minutes
 
 # Parse options
 while getopts ":f:" opt; do
