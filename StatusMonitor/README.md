@@ -1,1 +1,1 @@
-./StatusMonitor.sh -f my_hosts.lst
+./StatusMonitor.sh -f my_hosts.lst,liste.txt
